@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myapp2';
 }
+//list-products
+//view-products
+
+//Angular 8 and TypeScript/HTML VS Code Snippets
+//Angular Language Service
+//Angular Files
