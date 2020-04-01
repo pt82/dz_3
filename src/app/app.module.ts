@@ -6,17 +6,21 @@ import { AppComponent } from './app.component';
 import { ListProductsComponent } from './list-products/list-products.component';
 import { ViewProductsComponent } from './view-products/view-products.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ListTaskComponent } from './list-task/list-task.component';
+import { VievTaskComponent } from './viev-task/viev-task.component';
 
 @NgModule({
    declarations: [
       AppComponent,
       ListProductsComponent,
-      ViewProductsComponent
+      ViewProductsComponent,
+      ListTaskComponent,
+      VievTaskComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
-      HttpClientModule,
+      HttpClientModule
    ],
    providers: [],
    bootstrap: [

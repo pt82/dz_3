@@ -1,0 +1,8 @@
+<button ><a routerLink="/">На главную</a></button>
+
+<ul>
+  <li *ngFor="let task of tasks"> 
+    <p> {{task.title}} <br> <button><a [routerLink]=" '/task/' + task.id " ><i class="tiny material-icons">remove_red_eye</i>Просмотр</a></button></p>
+   
+  </li>
+</ul>
