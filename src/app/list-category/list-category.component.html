@@ -1,0 +1,9 @@
+<button><a routerLink="/">На главную</a></button>
+
+<ul>
+  <li *ngFor="let cat of category">
+    <h3> {{cat.title}} </h3> <br>
+    <button><a [routerLink]=" '/category/' + cat.id " ><i class="tiny material-icons">remove_red_eye</i>Просмотр</a></button>
+
+  </li>
+</ul>

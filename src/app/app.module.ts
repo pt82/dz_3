@@ -8,6 +8,8 @@ import { ViewProductsComponent } from './view-products/view-products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListTaskComponent } from './list-task/list-task.component';
 import { VievTaskComponent } from './viev-task/viev-task.component';
+import { ListCategoryComponent } from './list-category/list-category.component';
+import { CategoryComponent } from './category/category.component';
 
 @NgModule({
    declarations: [
@@ -15,7 +17,9 @@ import { VievTaskComponent } from './viev-task/viev-task.component';
       ListProductsComponent,
       ViewProductsComponent,
       ListTaskComponent,
-      VievTaskComponent
+      VievTaskComponent,
+      ListCategoryComponent,
+      CategoryComponent
    ],
    imports: [
       BrowserModule,
